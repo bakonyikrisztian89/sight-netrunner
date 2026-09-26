@@ -1,0 +1,132 @@
+/* Cyberpunk alap beállítások */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Igazi hacker stílusú betűtípus */
+    background-color: #0c0f12; /* Mély, sötét cyberpunk háttér */
+    color: #00f0ff; /* Neon ciánkék alap betűszín */
+    line-height: 1.6;
+    background-image: url('hatter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: rgba(0,0,0, 0.85);
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px solid #ff0055;
+}
+header h1{
+    text-shadow: 0 0 10px #00f0ff;
+}
+.cyber-kontener{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.cyber-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+.cyber-nav a{
+    color: #ffee00;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.cyber-nav a:hover{
+    color: white;
+    text-shadow: 0 0 8px #ffee00;
+}
+.cyber-fostartalom table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cyber-fostartalom th, .cyber-fostartalom td{
+    border: 1px solid #00f0ff;
+    padding: 10px;
+}
+.cyber-fostartalom th{
+    background-color: #ff0055;
+    color: black;
+}
+.adat-kivonat{
+    background-color: rgba(239,255,0, 0.05);
+    border-left: 3px solid #ffee00;
+    padding: 15px;
+    font-style: italic;
+}
+#adatok, #tortenet, #kepessegek{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 0, 85, 0.2);
+}
+.kiberver-lista{
+    list-style-type: none;
+}
+.kiberver-lista li{
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.kiberver-lista li::before{
+    content: "> ";
+    color: #ffee00;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ffee00;
+}
+.kiberver-lista li:nth-child(even){
+    background-color: rgba(0, 240, 255, 0.03);
+    padding: 10px;
+    border-radius: 4px;
+}
+.kep-helyorzo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #00f0ff;
+}
+.cyber-avatar{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 2px solid #00f0ff;
+    box-shadow: 0 0 15px #00f0ff;
+}
+.cyber-form input, .cyber-form textarea{
+    width: 100%;
+    background-color: black;
+    color: #00f0ff;
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.cyber-form button{
+    width: 100%;
+    background-color: #ff0055;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(0,0,0, 0.85);
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #ff0055;
+    margin-top: 40px;
+}

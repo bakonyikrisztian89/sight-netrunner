@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyberpunk Karakter Adatbázis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>[Sight]</h1>
+        <p>Hálózati Adatlap // Night City Nyilvántartás</p>
+        
+        <nav class="cyber-nav">
+            <ul>
+                <li><a href="#adatok">Biometria</a></li>
+                <li><a href="#tortenet">Háttér</a></li>
+                <li><a href="#kepessegek">Kiberverek</a></li>
+                <li><a href="#hazi-feladat">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cyber-kontener">
+        
+        <!-- BAL OLDALI FŐSÁV -->
+        <section class="cyber-fostartalom">
+            
+            <!-- BIOMETRIA SZEKCIÓ (Ide jön majd a táblázat) -->
+            <section id="adatok">
+                <h2>Alapvető Biometria</h2>
+                <p class="figyelmeztetes">FIGYELEM: Szigorúan bizalmas adatok. A hálózati hozzáférés naplózva.</p>
+                <table>
+                <tr><th>Paraméter</th><th>Adat // Beállítás</th></tr>
+                <tr><td>Kódnév</td><td>SIGHT</td></tr>
+                <tr><td>Valódi név</td><td>[Adatok törölve]</td></tr>
+                <tr><td>Operatív osztály</td><td>Visual Netrunner // Cyber-Architect</td></tr>
+                <tr><td>Elsődleges attribútumok</td><td>Technika (20), Intelligencia (20), Hidegvér (15)</td></tr>
+                <tr><td>Bőrtónus & Típus</td><td>Világos tónus, tiszta felület</td></tr>
+                <tr><td>Arc & Állkapocs</td><td>Határozott, férfias állvonal, egyenes orrforma</td></tr>
+                <tr><td>Szemek</td><td>Mandulavágású, fókuszált kék lencsék (HUD-integrált)</td></tr>
+                <tr><td>Hajstílus</td><td>Modern, oldalt precízen felnyírt, felül oldalra fésült sötétszőke</td></tr>
+                <tr><td>Arcszőrzet</td><td>Karakteres, ápolt sötétbarna körszakáll és bajusz</td></tr>
+                <tr><td>Operatív stílus</td><td>Neomilitarizmus x Neokitsch (Sötét technikai kabát, pálmamintás Aloha inggel)</td></tr>
+                </table>
+                <!-- Ide építed majd a karakter adat-táblázatot -->
+            </section>
+            
+            <section id="tortenet">
+                <h3>Háttér</h3>
+                <p class="adat-kivonat">
+                    SIGHT története a megavállalatok hideg szerverszobáiból indult, de Night City neonfényes betondzsungelében nyerte el végső formáját. 
+                    Eredetileg egy elit korporáció (Corpo) kvantumhálózati architektúráinak tervezéséért felelős mérnökcsapatát erősítette, ahol a neurális hálók és a korai fázisú mesterséges intelligenciák belső logikáját kutatta. 
+                    Számára a kód sosem száraz karakterek halmaza volt: egyedülálló kognitív képességének köszönhetően a kibertér adatfolyamait vizuális struktúrákként, szinte diafilmszerű behelyettesítésekként látta maga előtt.
+                </p>
+                <p>
+                    A vállalati intrikák és egy balul elsikerült belső szabotázs miatt azonban SIGHT-nak menekülnie kellett a luxusnegyedből. 
+                    A korporáció mindent elvett tőle, de a tudását és az egyedi neurális implantátumait nem tudták zárolni. 
+                    Az utcára kerülve gyorsan alkalmazkodott: a nomádoktól tanult sufnituning és hardver-buherálási technikákat ötvözte a vállalati precizitással.
+                </p>
+                <p>
+                    Jelenleg független szabadúszóként operál. 
+                    Nem az utca kaotikus, hangos erőszakát képviseli; ő a rejtélyes, hidegvérű "Szürke Ember" (Gray Man), aki egy elegáns, pálmafás ingben és egy sötét technikai kabátban sétál be a legveszélyesebb zónákba. 
+                    Ha egy zárolt hálózatot kell feltörni, vagy egy egyedi katonai szoftvert kell átírni a tűzvonalban, a kliensek tudják, hogy SIGHT-hoz kell fordulni. 
+                    Az ellenségei sokszor már csak akkor veszik észre a jelenlétét, amikor az okosfegyverei és a vizuális hackjei már térdre kényszerítették a védelmi rendszereiket.
+                </p>
+            </section>
+
+            <!-- KÉPESSÉGEK SZEKCIÓ (Ide jön majd a lista) -->
+            <section id="kepessegek">
+                <h2>Aktív Kiber-Implantátumok</h2>
+                
+                <!-- Ide építed majd a listát -->
+                <ul class="kiberver-lista">
+                    <li><strong>Sub-Dermal HUD (Kiterjesztett látóideg-kijelző):</strong> 
+                        A nyers, bináris kódsorokat és a megavállalati jégtörő (ICE) programokat valós időben 3D-s holografikus objektumokká formálja a felhasználó látóterében. 
+                        A matematikai műveletek és értékbehelyettesítések vizuális alakot öltenek, így a sebezhetőségek azonnal láthatóvá válnak.</li>
+                    <li><strong>Link – "Live Debug" Modul:</strong> 
+                        Lehetővé teszi a hálózati rendszerek mikroszintű manipulációját futás közben. 
+                        Az Overclock (Túlhúzás) funkcióval kombinálva a felhasználó képes a saját életerejét extra memóriává (RAM) alakítani a kritikus hackelések során.</li>
+                    <li><strong>Optics "Infovisor" System:</strong>
+                        Sötét keretes, fél-tükröződő high-tech szemüveg-implantátum, amely beépített kiber-szkennerrel rendelkezik. 
+                        Azonnal elemzi a környező hardverek kompatibilitását, a falak mögötti mozgást és az elektronikai eszközök gyenge pontjait.</li>
+                    <li><strong>Core & Axolotl Idegrendszer:</strong>
+                        A gerincoszlopba épített processzorok, amelyek a biológiai korlátokat áthágva koordinálják az implantátumokat. 
+                        Csökkentik a kiberprogramok újratöltési idejét minden egyes sikeresen semlegesített hálózati fenyegetés után.</li>
+                    <li><strong>Smart Link (Tenyér-implantátum):</strong>
+                        Közvetlen idegi kapcsolatot biztosít az intelligens (Smart) fegyverrendszerekkel. 
+                        Lehetővé teszi a mikro-rakéták és lövedékek holografikus célkövetését, így manuális célzás nélkül, falak mögül is garantálja a kritikus találatokat.</li>
+                </ul>
+            </section>
+
+        </section>
+
+        <!-- JOBB OLDALI OLDALSÁV (Kép és Űrlap) -->
+        <aside class="cyber-oldalsav">
+            <div class="avatar-doboz">
+                <!-- Ide jön majd a karakter képe -->
+                <img src="sight-avatar.png" alt="Sight netrunner hivatalos avatarja" class="cyber-avatar">
+            </div>
+        <form class="cyber-form">
+            <input type="text" placeholder="Kliens Azonosító (Kódnév)" required>
+            <textarea placeholder="Megbízás adatai // Titkosított üzenet..." required></textarea>
+            <button type="submit">ADATOK KÜLDÉSE // UPLINK</button>
+        </form>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>NIGHT CITY NETWATCH // ENCRYPTED CONNECTION // 2026</p>
+    </footer>
+
+</body>
+</html>
