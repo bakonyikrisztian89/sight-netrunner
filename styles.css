@@ -115,6 +115,12 @@ header h1{
     border: 1px solid #333;
     padding: 10px;
     margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+.cyber-form input:focus, .cyber-form textarea:focus{
+    border-color: #00f0ff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,240,255,0.5);
 }
 .cyber-form button{
     width: 100%;
@@ -129,4 +135,41 @@ footer{
     padding: 15px;
     border-top: 2px solid #ff0055;
     margin-top: 40px;
+}
+.figyelmeztetes{
+    background-color: rgba(255,0,85,0.1);
+    border: 2px solid #ff0055;
+    color: #ff0055;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.tetore-sav{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tetore-sav a{
+    color: #ff0055;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tetore-sav a:hover{
+    color: white;
+    text-shadow: 0 0 8px #ff0055;
+}
+.statusz-kod{
+    background-color: #ff0055;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+@media (max-width: 768px){
+    .cyber-kontener{
+        flex-direction: column;
+    }
+    .cyber-nav ul{
+        flex-direction: column;
+    }
 }

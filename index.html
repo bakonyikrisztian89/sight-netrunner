@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <header>
+    <header id="lap-teteje">
         <h1>[Sight]</h1>
         <p>Hálózati Adatlap // Night City Nyilvántartás</p>
         
@@ -16,7 +16,7 @@
                 <li><a href="#adatok">Biometria</a></li>
                 <li><a href="#tortenet">Háttér</a></li>
                 <li><a href="#kepessegek">Kiberverek</a></li>
-                <li><a href="#hazi-feladat">Kapcsolat</a></li>
+                <li><a href="#kapcsolat">Kapcsolat</a></li>
             </ul>
         </nav>
     </header>
@@ -29,8 +29,9 @@
             <!-- BIOMETRIA SZEKCIÓ (Ide jön majd a táblázat) -->
             <section id="adatok">
                 <h2>Alapvető Biometria</h2>
-                <p class="figyelmeztetes">FIGYELEM: Szigorúan bizalmas adatok. A hálózati hozzáférés naplózva.</p>
-                <table>
+                <p class="figyelmeztetes">
+                    <span class="statusz-kod">STATUSZ: BLOCKED</span> // FIGYELEM: Szigorúan bizalmas adatok. A hálózati hozzáférés naplózva.
+                </p>
                 <tr><th>Paraméter</th><th>Adat // Beállítás</th></tr>
                 <tr><td>Kódnév</td><td>SIGHT</td></tr>
                 <tr><td>Valódi név</td><td>[Adatok törölve]</td></tr>
@@ -98,7 +99,7 @@
                 <!-- Ide jön majd a karakter képe -->
                 <img src="sight-avatar.png" alt="Sight netrunner hivatalos avatarja" class="cyber-avatar">
             </div>
-        <form class="cyber-form">
+        <form class="cyber-form" id="kapcsolat">
             <input type="text" placeholder="Kliens Azonosító (Kódnév)" required>
             <textarea placeholder="Megbízás adatai // Titkosított üzenet..." required></textarea>
             <button type="submit">ADATOK KÜLDÉSE // UPLINK</button>
@@ -106,7 +107,7 @@
         </aside>
 
     </main>
-
+    <p class="tetore-sav"><a href="#lap-teteje">▲ VISSZA A TETEJERRE // UPLINK</a></p>
     <footer>
         <p>NIGHT CITY NETWATCH // ENCRYPTED CONNECTION // 2026</p>
     </footer>
